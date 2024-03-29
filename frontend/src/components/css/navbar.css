@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.logo{
+  color: white;
+  text-decoration: none;
+}
+
 .logo img {
   width: 3.5rem; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */

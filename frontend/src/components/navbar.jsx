@@ -10,8 +10,11 @@ function Navbar(){
         <Link to="/" className="logo">
           <img src="/logo.png" alt="Logo" />
         </Link>
-        <span className="website-name">ROBOZON</span>
+        <Link to="/" className="logo">
+          <span className="website-name">ROBOZON</span>
+        </Link>
       </div>
+      
       <div className="navbar-right">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/products" className="nav-link">Products</Link>
