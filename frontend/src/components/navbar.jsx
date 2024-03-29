@@ -1,22 +1,26 @@
-import React from 'react'
+// Navbar.js
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './css/navbar.css'
-
-
-// const logo = {path of the logo}
 
 const Navbar = () => {
   return (
-    <nav className='nav'>
-        <a>ROBOZON</a>
-        
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/product">Product Page</a></li>
-            <li><a href="/contactUs">Contact Us</a></li>
-            <li><a href="/login">Login</a></li>
-        </ul>   
+    <nav className="navbar">
+      <div className="navbar-left">
+        <Link to="/" className="logo">
+          <img src="/logo.png" alt="Logo" />
+        </Link>
+        <span className="website-name">ROBOZON</span>
+      </div>
+      <div className="navbar-right">
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/products" className="nav-link">Products</Link>
+        <Link to="/contact" className="nav-link">Contact Us</Link>
+        <Link to="/cart" className="nav-link">Cart</Link>
+        <Link to="/login" className="nav-link">Login</Link>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;
