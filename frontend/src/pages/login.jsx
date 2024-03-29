@@ -1,27 +1,30 @@
-import React from 'react'
-import './css/login.css'
+import React from "react";
+import "./css/login.css";
 
-function Login(){
+function Login() {
   return (
     <div>
-      
       <div class="login-input">
-              <h1>LOGIN</h1>
-              <div class ="login-input-box">
-                  <input type ="text" placeholder="Username" required/>
-              </div>
-              <div class="login-input-box">
-                  <input type ="password" placeholder="Enter your Password" required/>
-              </div>
-              
-            <a href="/"><button type ="Submit" class="btn">Login</button></a>
-              <div class ="register-link">
-                <p>Don't have an account?</p>
-                <a href ="#">Sign Up</a>
-              </div>
+        <h1>LOGIN</h1>
+        <div class="login-input-box">
+          <input type="text" placeholder="Username" required />
         </div>
+        <div class="login-input-box">
+          <input type="password" placeholder="Enter your Password" required />
+        </div>
+
+        <a href="/">
+          <button type="Submit" class="btn">
+            Login
+          </button>
+        </a>
+        <div class="register-link">
+          <p>Don't have an account?</p>
+          <a href="/signup">Sign Up</a>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
