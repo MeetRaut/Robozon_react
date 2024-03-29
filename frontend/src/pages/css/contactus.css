@@ -1,14 +1,15 @@
 .contact-form{
     color: white;
     width: 550px;
-    height: 500px;
+    height: 550px;
     background-color: transparent;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
-    border: white;
-
+    border: white solid;
+    border-radius: 5%;
+    padding: 1rem;
 }
 
 .contact-form h2 {
