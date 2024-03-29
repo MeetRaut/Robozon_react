@@ -1,9 +1,9 @@
 import React from 'react'
 
-function cart(){
+function Cart(){
   return (
-    <div>Cart</div>
+    <div><h1>Cart</h1></div>
   )
 }
 
-export default cart
+export default Cart
