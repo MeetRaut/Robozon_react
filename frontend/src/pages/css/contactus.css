@@ -1,0 +1,63 @@
+.contact-form{
+    color: white;
+    width: 550px;
+    height: 500px;
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: white;
+
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px; /* Increased margin-bottom for larger header spacing */
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.input-group {
+    background-color: transparent;
+    color: white;
+}
+
+.contact-form input[type="text"], 
+.contact-form input[type="email"], 
+.contact-form textarea {
+    
+    font-size: 1.5rem;
+    width: 90%;
+    margin-left: 5%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    height: 11.5rem; /* Increased height for a larger textarea */
+    resize: none;
+}
+  
+
+.contact-form button {
+    width: 50%;
+    padding: 15px; /* Increased padding for a larger button */
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size for better visibility on a larger button */
+    text-align: center;
+}
+
+.contact-form button:hover{
+    background-color: white;
+    color: black;
+}
