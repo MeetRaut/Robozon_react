@@ -11,7 +11,7 @@ function Home(){
         <p>Building the Future & Empowering Minds Through Robotics!</p>
       </div>
       <div class="button">
-        <a href="product.html" class="btn">Explore NOW!</a>
+        <a href="/product" class="btn">Explore NOW!</a>
       </div>
     </div>
   )
