@@ -45,7 +45,7 @@
 }
 
 .login-input .btn{
-    width: 100%;
+    width: 75%;
     height: 12%;
     background: #fff;
     border: none;
@@ -57,6 +57,8 @@
     color: black;
     margin-top: 2rem;
     margin-bottom: 15px;
+    position: relative;
+    left: 12.5%;
 }
 
 .login-input .register-link{

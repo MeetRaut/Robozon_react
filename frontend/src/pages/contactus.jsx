@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { useSnackbar } from "notistack";
 import './css/contactus.css';
 
 function Contactus(){
@@ -7,6 +8,8 @@ function Contactus(){
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const form = useRef();
+  // For alerts
+  const { enqueueSnackbar } = useSnackbar();
   
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -15,9 +18,13 @@ function Contactus(){
         .then(
             (response) => {
                 console.log('SUCCESS!', response.status, response.text);
+                // Alert if email is sent
+                enqueueSnackbar("Email sent successfully!!!", {variant: 'success'});
             },
             (error) => {
                 console.log('FAILED...', error);
+                // Alert if theres any error
+                enqueueSnackbar("Error", {variant: 'error'});
             }
         );
     console.log('Name:', name);
