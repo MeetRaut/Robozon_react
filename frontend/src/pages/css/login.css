@@ -67,13 +67,6 @@
     color: white;
 }
 
-.register-link p a{
-    color: #fff;
-    text-decoration: none;
-    position: absolute;
-}
-
-.register-link p a:hover{
-    position: absolute;
-    text-decoration: underline;
+.register-link a{
+    color: lightgreen;
 }

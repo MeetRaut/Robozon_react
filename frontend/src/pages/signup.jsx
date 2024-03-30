@@ -10,7 +10,10 @@ function Signup(){
           <input type="text" placeholder="E-mail" required />
         </div>
         <div class="signup-input-box">
-          <input type="password" placeholder="Enter your Password" required />
+          <input type="text" placeholder="Username" required />
+        </div>
+        <div class="signup-input-box">
+          <input type="password" placeholder="New Password" required />
         </div>
 
         <a href="/">

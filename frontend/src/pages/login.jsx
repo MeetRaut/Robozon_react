@@ -10,7 +10,7 @@ function Login() {
           <input type="text" placeholder="Username" required />
         </div>
         <div class="login-input-box">
-          <input type="password" placeholder="Enter your Password" required />
+          <input type="password" placeholder="Password" required />
         </div>
 
         <a href="/">
