@@ -6,10 +6,11 @@ import Navbar from './components/navbar';
 import Home from './pages/home'
 import Product from './pages/product'
 import Contactus from './pages/contactus'
-import Cart from './pages/cart'
+import Cart from './pages/aboutus'
 import Login from './pages/login'
 import Signup from './pages/signup';
 import './App.css'
+import Aboutus from './pages/aboutus';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/product" element={<Product/>} />
             <Route path="/contact" element={<Contactus/>} />
-            <Route path="/cart" element={<Cart/>} />
+            <Route path="/aboutus" element={<Aboutus/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/signup" element={<Signup/>} />
           </Routes>
